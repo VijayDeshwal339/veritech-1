@@ -1,0 +1,135 @@
+:root {
+    --pink: #FF00FF; 
+  }
+  
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.top {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 0px;
+    overflow: hidden;
+    width: 100%; 
+}
+
+.button {
+    padding-inline: 30px;
+    padding-block: 10px;
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Sans-serif;
+    font-weight: 600;
+}
+
+.content {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 80%;
+}
+
+.dotted-line {
+    border-top: 2px dashed var(--pink); 
+    width: 60%;
+    border-width: 3px;
+}
+
+.content1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    width: 80%;
+}
+
+.button1 {
+    background-color: var(--pink);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 0px;
+    width: 100%; 
+}
+
+
+
+.button2 {
+    padding-inline: 20px;
+    padding-block: 5px;
+    background-color: #FF00FF;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Sans-serif;
+    font-weight: 600;
+    border: none;
+    margin: auto; 
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:100%;
+    
+}
+
+.profile {
+    display: flex;
+    width:'100px';
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.Name{
+    font-size: 16px;
+    font-weight: 600;
+}
+.tittle{
+    color: gray;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.mid1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+.button-container {
+    flex-grow: 1; 
+    margin-left: 100px;
+    text-align: center; 
+}
+
+@media screen and (max-width: 469px) {
+    .button-container {
+        margin-left:0px;
+    }
+  
+    
+  }
